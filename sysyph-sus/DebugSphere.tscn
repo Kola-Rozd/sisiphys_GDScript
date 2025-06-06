@@ -1,0 +1,23 @@
+[gd_scene load_steps=6 format=3 uid="uid://drtqblthrai8w"]
+
+[ext_resource type="Script" uid="uid://cv5hb5n5tyg7v" path="res://core.gd" id="1_27atl"]
+[ext_resource type="Texture2D" uid="uid://b3oomy6bds1fo" path="res://icon.svg" id="1_j85cg"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s2q6n"]
+albedo_texture = ExtResource("1_j85cg")
+
+[sub_resource type="SphereMesh" id="SphereMesh_namti"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_27atl"]
+
+[node name="Sphere" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("StandardMaterial3D_s2q6n")
+mesh = SubResource("SphereMesh_namti")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_27atl")
+
+[node name="Core" type="Node3D" parent="."]
+script = ExtResource("1_27atl")
