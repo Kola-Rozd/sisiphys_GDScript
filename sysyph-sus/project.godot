@@ -23,7 +23,8 @@ window/size/viewport_height=1000
 [file_customization]
 
 folder_colors={
-"res://imports/": "red"
+"res://code/": "red",
+"res://code/scene/": "purple"
 }
 
 [input]
