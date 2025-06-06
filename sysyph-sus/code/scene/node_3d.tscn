@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bypu1i4qqtpm7"]
 
-[ext_resource type="PackedScene" uid="uid://b04yoxb745247" path="res://Player.tscn" id="1_noarx"]
-[ext_resource type="PackedScene" uid="uid://drtqblthrai8w" path="res://DebugSphere.tscn" id="3_a0tk4"]
+[ext_resource type="PackedScene" uid="uid://b04yoxb745247" path="res://code/scene/Player.tscn" id="1_noarx"]
+[ext_resource type="PackedScene" uid="uid://drtqblthrai8w" path="res://code/scene/DebugSphere.tscn" id="3_a0tk4"]
 
 [node name="Node3D" type="Node3D"]
 

@@ -20,6 +20,13 @@ config/icon="res://icon.svg"
 window/size/viewport_width=1900
 window/size/viewport_height=1000
 
+[file_customization]
+
+folder_colors={
+"res://code/": "red",
+"res://code/scene/": "purple"
+}
+
 [input]
 
 W={
